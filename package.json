@@ -1,0 +1,30 @@
+{
+  "name": "dogma-v1",
+  "displayName": "Dogma V1",
+  "description": "Syntax highlighting for the Dogma metalanguage (version 1)",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "publisher": "kstenerud",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kstenerud/dogma-tmlanguage.git"
+  },
+  "contributes": {
+    "languages": [{
+      "id": "dogma",
+      "aliases": ["Dogma", "dogma", "dogma1", "dogma_v1"],
+      "extensions": [".dogma"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "dogma",
+      "scopeName": "source.dogma",
+      "path": "./syntaxes/dogma.tmLanguage.json"
+    }]
+  }
+}
