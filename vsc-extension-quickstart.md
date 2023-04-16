@@ -27,3 +27,13 @@
 
 * To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
 * To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+
+## Build and publish extension
+
+```bash
+$ cd myExtension
+$ vsce package
+# myExtension.vsix generated
+$ vsce publish
+# <publisherID>.myExtension published to VS Code Marketplace
+```
