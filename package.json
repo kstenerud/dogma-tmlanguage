@@ -2,7 +2,8 @@
   "name": "dogma-v1",
   "displayName": "Dogma V1",
   "description": "Syntax highlighting for the Dogma metalanguage (version 1)",
-  "version": "1.0.1",
+  "icon": "images/logo.png",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.76.0"
   },
