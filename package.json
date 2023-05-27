@@ -3,7 +3,7 @@
   "displayName": "Dogma V1",
   "description": "Syntax highlighting for the Dogma metalanguage (version 1)",
   "icon": "images/logo.png",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.76.0"
   },
